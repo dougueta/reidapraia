@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    // "node_modules": true,
+    // ".vscode": true,
+    // ".gitignore": true,
+    // "package.json": true,
+    // "package-lock.json": true,
+    // "public": true
+  },
+  "eslint.validate": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "https://dougueta.github.io/reidapraia/static/css/main.b05673ab.chunk.css",
+    "main.js": "https://dougueta.github.io/reidapraia/static/js/main.393d3da8.chunk.js",
+    "main.js.map": "https://dougueta.github.io/reidapraia/static/js/main.393d3da8.chunk.js.map",
+    "runtime-main.js": "https://dougueta.github.io/reidapraia/static/js/runtime-main.bcf3e22e.js",
+    "runtime-main.js.map": "https://dougueta.github.io/reidapraia/static/js/runtime-main.bcf3e22e.js.map",
+    "static/js/2.8d034c76.chunk.js": "https://dougueta.github.io/reidapraia/static/js/2.8d034c76.chunk.js",
+    "static/js/2.8d034c76.chunk.js.map": "https://dougueta.github.io/reidapraia/static/js/2.8d034c76.chunk.js.map",
+    "index.html": "https://dougueta.github.io/reidapraia/index.html",
+    "static/css/main.b05673ab.chunk.css.map": "https://dougueta.github.io/reidapraia/static/css/main.b05673ab.chunk.css.map",
+    "static/js/2.8d034c76.chunk.js.LICENSE.txt": "https://dougueta.github.io/reidapraia/static/js/2.8d034c76.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcf3e22e.js",
+    "static/js/2.8d034c76.chunk.js",
+    "static/css/main.b05673ab.chunk.css",
+    "static/js/main.393d3da8.chunk.js"
+  ]
+}

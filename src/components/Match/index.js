@@ -1,7 +1,8 @@
 import React from 'react'
+import Typography from '@mui/material/Typography'
 
 const Match = () => {
-  return <div>Criação de partidas</div>
+  return <Typography variant="h3">Partidas</Typography>
 }
 
 export default Match

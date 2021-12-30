@@ -12,13 +12,14 @@ export const MenuOptions = styled.div`
   align-items: center;
   height: 4rem;
   width: 100%;
+  a {
+    color: #e5e5e5;
+  }
 `
 
 export const HeaderWrapper = styled(Toolbar)`
-  font-family: 'lato';
   font-size: 1rem;
-  background-color: #003b46;
-  /* color: #05676e; */
+  background-color: #ff9437;
 `
 
 // cores

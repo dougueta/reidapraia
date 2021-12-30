@@ -1,7 +1,12 @@
 import React from 'react'
+import { Typography } from '@mui/material'
 
 const Home = () => {
-  return <div>pagina inicial</div>
+  return (
+    <>
+      <Typography variant="h3">Home</Typography>
+    </>
+  )
 }
 
 export default Home

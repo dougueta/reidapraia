@@ -1,15 +1,14 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-// import Header from "components/Header";
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import routes from 'routes'
 import PageBase from 'components/PageBase'
 import Home from 'components/Home'
 import Sortition from 'components/Sortition'
 import Ranking from 'components/Ranking'
-import CreatePlayer from 'components/CreatePlayer'
-import CreateMatch from 'components/CreateMatch'
-import Player from 'components/Player'
+
 import Match from 'components/Match'
-import Stats from 'components/Stats'
+
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import './App.css'
 
@@ -17,20 +16,23 @@ function App() {
   return (
     <BrowserRouter>
       <PageBase>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/sorteio" element={<Sortition />} />
-          <Route path="/ranking" element={<Ranking />} />
-          <Route path="/jogador/" element={<Player />} />
-          <Route path="/jogador/criar" element={<CreatePlayer />} />
-          <Route path="/estatisticas" element={<Stats />} />
-          <Route path="/partida" element={<Match />} />
-          <Route path="/partida/criar" element={<CreateMatch />} />
-        </Routes>
-        {/* <Footer /> */}
+        {/* <Switch> */}
+        <Route
+          render={({ location }) => (
+            <TransitionGroup>
+              <CSSTransition timeout={300} classNames="fade" key={location.key}>
+                <Switch location={location}>
+                  <Route path={routes.home} component={Home} exact />
+                  <Route path={routes.ranking} component={Ranking} exact />
+                  <Route path="/sorteio" component={Sortition} exact />
+                  <Route path="/partidas" component={Match} exact />
+                </Switch>
+              </CSSTransition>
+            </TransitionGroup>
+          )}
+        />
       </PageBase>
     </BrowserRouter>
   )
 }
-
 export default App

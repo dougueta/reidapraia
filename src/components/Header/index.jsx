@@ -4,11 +4,12 @@ import React from 'react'
 import { MenuOptions, HeaderWrapper } from './Header.styles'
 
 export default function Header() {
+  // trocar a cor do header pela a do footer
   const displayDesktop = () => (
     <HeaderWrapper>
       <MenuOptions>
-        <Link to="/sorteio" aria-label="Sorteio de duplas">
-          Sorteio de duplas
+        <Link to="/" aria-label="Sorteio de duplas">
+          home
         </Link>
         <Link to="/ranking" aria-label="Ranking">
           Ranking
@@ -16,8 +17,8 @@ export default function Header() {
         <Link to="/jogador" aria-label="Perfil Jogador">
           Jogador
         </Link>
-        <Link to="/jogador/criar" aria-label="Criar Jogador">
-          Criar jogador
+        <Link to="/partida" aria-label="Criar Jogador">
+          Partida
         </Link>
       </MenuOptions>
     </HeaderWrapper>

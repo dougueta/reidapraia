@@ -6,6 +6,7 @@ const Sortition = () => {
   return (
     <>
       <Typography variant="h3">Sorteio</Typography>
+      <TeamSort />
     </>
   )
 }

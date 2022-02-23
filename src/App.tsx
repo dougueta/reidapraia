@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import routes from 'routes'
-import PageBase from 'components/PageBase'
-import Home from 'components/Home'
-import Sortition from 'components/Sortition'
-import Ranking from 'components/Ranking'
+import routes from './routes'
+import PageBase from './components/PageBase'
+import Home from './components/Home'
+import Sortition from './components/Sortition'
+import Ranking from './components/Ranking'
 
-import Match from 'components/Match'
+import Match from './components/Match'
 
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 

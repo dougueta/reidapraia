@@ -1,12 +1,12 @@
 import React from 'react'
-import { FooterWrapper, Menu, Item, Indicator } from './Footer.styles'
+import { FooterWrapper, Menu, Item } from './Footer.styles'
 import HomeIcon from '@mui/icons-material/Home'
 import StarIcon from '@mui/icons-material/Star'
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted'
 import AssignmentIcon from '@mui/icons-material/Assignment'
 import Typography from '@mui/material/Typography'
 import { NavLink } from 'react-router-dom'
-import routes from 'routes'
+import routes from '../../routes'
 
 const menuItens = [
   { title: 'Inicio', icon: <HomeIcon />, route: routes.home },

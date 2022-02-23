@@ -1,5 +1,5 @@
 import React from 'react'
-import TeamSort from 'widgets/TeamSort'
+import TeamSort from '../../widgets/TeamSort'
 import { Typography } from '@mui/material'
 
 const Sortition = () => {
